@@ -27,7 +27,7 @@ dependencies:
   - shap
   - dipy
   - jupyterhub-singleuser
-  - cvxpy
+  - cvxpy==1.1.5
   - pip:
     - pyAFQ
     - afqinsight
