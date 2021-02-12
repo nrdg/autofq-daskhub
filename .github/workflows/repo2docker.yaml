@@ -14,4 +14,4 @@ jobs:
         DOCKER_USERNAME: ${{ secrets.USERNAME }}
         DOCKER_PASSWORD: ${{ secrets.PAT }}
         DOCKER_REGISTRY: "ghcr.io"
-        IMAGE_NAME : "nrdg/autofq-hub"
+        IMAGE_NAME : "nrdg/autofq-daskhub"
