@@ -21,15 +21,8 @@ USER ${NB_USER}
 RUN echo "Installing conda packages..." \
  && mamba install -n ${CONDA_ENV} -y -c plotly \
    nibabel==2.5.1 \
-   h5py==2.9.0 \
-   matplotlib==3.1.0 \
-   scikit-image==0.15.0 \
    seaborn==0.9.0 \
    plotly==3.9.0 \
-   jupyterlab==1.1.2 \
-   awscli==1.16.249 \
-   python-graphviz \
-   scikit-learn==0.22.1 \
    statsmodels \
    xgboost \
    shap \
