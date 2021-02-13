@@ -28,7 +28,6 @@ RUN echo "Installing conda packages..." \
    scikit-image==0.15.0 \
    seaborn==0.9.0 \
    plotly==3.9.0 \
-   ipywidgets==7.4.2 \
    jupyterlab==1.1.2 \
    awscli==1.16.249 \
    xvfbwrapper \
@@ -38,7 +37,6 @@ RUN echo "Installing conda packages..." \
    xgboost \
    shap \
    dipy \
-   cvxpy==1.1.5\
    && echo "Installing conda packages complete!"
 
 
