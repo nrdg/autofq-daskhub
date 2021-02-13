@@ -26,8 +26,6 @@ RUN echo "Installing conda packages..." \
    statsmodels \
    xgboost \
    shap \
-   dipy==1.3.0 \
-   cvxpy==1.1.10 \
    && echo "Installing conda packages complete!"
 
 
@@ -36,9 +34,7 @@ RUN echo "Installing conda packages..." \
 RUN echo "Installing pip packages..." \
  && HDF5_DIR=$NB_PYTHON_PREFIX \
     ${NB_PYTHON_PREFIX}/bin/pip install --no-cache-dir --no-binary=h5py \
-    pyAFQ \
     afqinsight \
-    neuropythy \
  && echo "Installing pip packages complete!"
 
 
