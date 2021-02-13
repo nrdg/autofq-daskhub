@@ -23,14 +23,11 @@ RUN echo "Installing conda packages..." \
    nibabel==2.5.1 \
    h5py==2.9.0 \
    matplotlib==3.1.0 \
-   xarray==0.16.2 \
-   numba==0.43.1 \
    scikit-image==0.15.0 \
    seaborn==0.9.0 \
    plotly==3.9.0 \
    jupyterlab==1.1.2 \
    awscli==1.16.249 \
-   xvfbwrapper \
    python-graphviz \
    scikit-learn==0.22.1 \
    statsmodels \
