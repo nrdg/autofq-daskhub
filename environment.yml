@@ -29,6 +29,7 @@ dependencies:
   - dipy
   - jupyterhub-singleuser
   - cvxpy==1.1.5
+  - nodejs==15.3.0
   - pip:
     - pyAFQ
     - afqinsight
