@@ -26,6 +26,7 @@ RUN echo "Installing conda packages..." \
    statsmodels \
    xgboost \
    shap \
+   cvxpy==1.1.* \
    && echo "Installing conda packages complete!"
 
 
@@ -35,6 +36,7 @@ RUN echo "Installing pip packages..." \
  && HDF5_DIR=$NB_PYTHON_PREFIX \
     ${NB_PYTHON_PREFIX}/bin/pip install --no-cache-dir --no-binary=h5py \
     afqinsight \
+    git+https://github.com/yeatmanlab/pyAFQ.git@master \
  && echo "Installing pip packages complete!"
 
 
