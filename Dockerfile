@@ -27,6 +27,7 @@ RUN echo "Installing conda packages..." \
    xgboost \
    shap \
    dipy \
+   s3fs \
    cvxpy==1.1.* \
    && echo "Installing conda packages complete!"
 
