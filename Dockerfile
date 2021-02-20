@@ -29,6 +29,7 @@ RUN echo "Installing conda packages..." \
    dipy \
    s3fs \
    fury \
+   xvfbwrapper \
    cvxpy==1.1.* \
    && echo "Installing conda packages complete!"
 
